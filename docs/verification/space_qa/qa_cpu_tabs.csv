@@ -1,0 +1,18 @@
+path,tab,call,wall_s
+cpu,"1 Reconstruct (I+II+V1, BiMa-SR, classifier on)",1,5.142158865986858
+cpu,"1 Reconstruct (I+II+V1, BiMa-SR, classifier on)",2,4.084993683965877
+cpu,"1 Reconstruct (II, DiBiMa-SR DDIM-6)",1,22.28946864401223
+cpu,"1 Reconstruct (II, DiBiMa-SR DDIM-6)",2,20.71255017898511
+cpu,2 Classifier view (no GPU),1,1.3545475450227968
+cpu,2 Classifier view (no GPU),2,0.010834333021193743
+cpu,"2 Explain (I+II+V1, BiMa-SR, 9 predicted leads)",1,42.25771562498994
+cpu,"2 Explain (II, BiMa-SR, 11 predicted leads)",1,43.5998190829996
+cpu,"2 Explain (II, DiBiMa-SR one-step)",1,56.45910710602766
+cpu,3 Compare input sets (6 configs),1,19.931832537986338
+cpu,3 Compare input sets (6 configs),2,19.499114120961167
+cpu,4 Diffusion uncertainty (N=8),1,27.815013139974326
+cpu,4 Diffusion uncertainty (N=8),2,27.29511641600402
+cpu,4 Diffusion uncertainty (N=16),1,58.64387944404734
+cpu,4 Diffusion uncertainty (N=16),2,57.85130342200864
+cpu,5 Results tables,1,0.0074443009798415005
+cpu,5 Results tables,2,0.0061573630082421005

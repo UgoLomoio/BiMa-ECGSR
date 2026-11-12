@@ -1,0 +1,5 @@
+classifier,input_leads,cohort,group,n_records,label,n_labels,auroc,ci_low,ci_high,labels_evaluated
+judge12,"I,II,III,aVR,aVL,aVF,V1,V2,V3,V4,V5,V6",ptbxl_test,superclass,2198,macro,5,0.91220,0.90336,0.92049,ok:NORM|MI|STTC|CD|HYP
+judge12,"I,II,III,aVR,aVL,aVF,V1,V2,V3,V4,V5,V6",ptbxl_test,panel,2198,macro,10,0.94530,0.92727,0.95884,ok:AFIB|1AVB|PAC|PVC|SBRAD|STACH|LVH|RVH|CRBBB|CLBBB
+judge12,"I,II,III,aVR,aVL,aVF,V1,V2,V3,V4,V5,V6",georgia,panel,10275,macro,11,0.87071,0.86408,0.87756,ok:AFIB|AFLT|1AVB|PAC|PVC|SBRAD|STACH|LVH|RVH|CRBBB|CLBBB
+judge12,"I,II,III,aVR,aVL,aVF,V1,V2,V3,V4,V5,V6",china,panel,43559,macro,11,0.92623,0.91925,0.93215,ok:AFIB|1AVB|PAC|PVC|SBRAD|STACH|WPW|LVH|RVH|CRBBB|CLBBB

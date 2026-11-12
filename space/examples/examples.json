@@ -1,0 +1,260 @@
+[
+ {
+  "key": "ptbxl_test_12720",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "12720",
+  "group": "NORM",
+  "labels": [
+   "NORM",
+   "STACH"
+  ],
+  "diagnosis": "normal ECG (80%); sinus tachycardia",
+  "age": 44.0,
+  "sex": "F",
+  "file": "12720_hr",
+  "source_path": "records500/12000/12720_hr",
+  "dataset_windows": [
+   2822,
+   2823
+  ],
+  "group_size": 912,
+  "group_p75_pcc": 0.9849,
+  "record_pcc_telemetry": 0.9849,
+  "rule": "single superclass"
+ },
+ {
+  "key": "ptbxl_test_15950",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "15950",
+  "group": "MI",
+  "labels": [
+   "MI"
+  ],
+  "diagnosis": "anterior myocardial infarction (15%); Q waves present; sinus rhythm",
+  "age": 64.0,
+  "sex": "F",
+  "file": "15950_hr",
+  "source_path": "records500/15000/15950_hr",
+  "dataset_windows": [
+   3398,
+   3399
+  ],
+  "group_size": 256,
+  "group_p75_pcc": 0.9726,
+  "record_pcc_telemetry": 0.9726,
+  "rule": "single superclass"
+ },
+ {
+  "key": "ptbxl_test_4809",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "4809",
+  "group": "STTC",
+  "labels": [
+   "STTC"
+  ],
+  "diagnosis": "non-diagnostic T abnormalities (100%); sinus rhythm",
+  "age": 88.0,
+  "sex": "M",
+  "file": "04809_hr",
+  "source_path": "records500/04000/04809_hr",
+  "dataset_windows": [
+   1210,
+   1211
+  ],
+  "group_size": 242,
+  "group_p75_pcc": 0.9779,
+  "record_pcc_telemetry": 0.9779,
+  "rule": "single superclass"
+ },
+ {
+  "key": "ptbxl_test_3452",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "3452",
+  "group": "CD",
+  "labels": [
+   "CD",
+   "PVC"
+  ],
+  "diagnosis": "left anterior fascicular block (100%); ventricular premature complex (100%); low amplitude T-waves; non-specific ST depression; sinus rhythm",
+  "age": 67.0,
+  "sex": "M",
+  "file": "03452_hr",
+  "source_path": "records500/03000/03452_hr",
+  "dataset_windows": [
+   866,
+   867
+  ],
+  "group_size": 184,
+  "group_p75_pcc": 0.9758,
+  "record_pcc_telemetry": 0.9756,
+  "rule": "single superclass"
+ },
+ {
+  "key": "ptbxl_test_4278",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "4278",
+  "group": "HYP",
+  "labels": [
+   "HYP",
+   "LVH"
+  ],
+  "diagnosis": "left ventricular hypertrophy (35%); voltage criteria (QRS) for left ventricular hypertrophy; sinus rhythm",
+  "age": 70.0,
+  "sex": "M",
+  "file": "04278_hr",
+  "source_path": "records500/04000/04278_hr",
+  "dataset_windows": [
+   1106,
+   1107
+  ],
+  "group_size": 56,
+  "group_p75_pcc": 0.9816,
+  "record_pcc_telemetry": 0.9816,
+  "rule": "single superclass"
+ },
+ {
+  "key": "ptbxl_test_10130",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "10130",
+  "group": "CLBBB",
+  "labels": [
+   "CD",
+   "CLBBB"
+  ],
+  "diagnosis": "complete left bundle branch block (100%); sinus rhythm",
+  "age": 79.0,
+  "sex": "M",
+  "file": "10130_hr",
+  "source_path": "records500/10000/10130_hr",
+  "dataset_windows": [
+   2266,
+   2267
+  ],
+  "group_size": 29,
+  "group_p75_pcc": 0.9293,
+  "record_pcc_telemetry": 0.9293,
+  "rule": "single panel label"
+ },
+ {
+  "key": "ptbxl_test_21111",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "21111",
+  "group": "CRBBB",
+  "labels": [
+   "CD",
+   "CRBBB"
+  ],
+  "diagnosis": "complete right bundle branch block (100%); left anterior fascicular block (100%); sinus rhythm",
+  "age": 77.0,
+  "sex": "M",
+  "file": "21111_hr",
+  "source_path": "records500/21000/21111_hr",
+  "dataset_windows": [
+   4344,
+   4345
+  ],
+  "group_size": 29,
+  "group_p75_pcc": 0.9409,
+  "record_pcc_telemetry": 0.9409,
+  "rule": "single panel label"
+ },
+ {
+  "key": "ptbxl_test_5257",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "5257",
+  "group": "AFIB",
+  "labels": [
+   "MI",
+   "AFIB"
+  ],
+  "diagnosis": "anteroseptal myocardial infarction (15%); atrial fibrillation",
+  "age": 75.0,
+  "sex": "F",
+  "file": "05257_hr",
+  "source_path": "records500/05000/05257_hr",
+  "dataset_windows": [
+   1290,
+   1291
+  ],
+  "group_size": 95,
+  "group_p75_pcc": 0.9712,
+  "record_pcc_telemetry": 0.9704,
+  "rule": "single panel label"
+ },
+ {
+  "key": "ptbxl_test_4458",
+  "cohort": "ptbxl_test",
+  "cohort_name": "PTB-XL",
+  "record_id": "4458",
+  "group": "LVH",
+  "labels": [
+   "HYP",
+   "LVH"
+  ],
+  "diagnosis": "left ventricular hypertrophy (15%); voltage criteria (QRS) for left ventricular hypertrophy",
+  "age": 54.0,
+  "sex": "M",
+  "file": "04458_hr",
+  "source_path": "records500/04000/04458_hr",
+  "dataset_windows": [
+   1138,
+   1139
+  ],
+  "group_size": 146,
+  "group_p75_pcc": 0.975,
+  "record_pcc_telemetry": 0.975,
+  "rule": "single panel label"
+ },
+ {
+  "key": "georgia_E05445",
+  "cohort": "georgia",
+  "cohort_name": "Georgia",
+  "record_id": "E05445",
+  "group": "all records",
+  "labels": [],
+  "diagnosis": "supraventricular tachycardia; T wave change",
+  "age": 79.0,
+  "sex": "F",
+  "file": "E05445",
+  "source_path": "g6/E05445",
+  "dataset_windows": [
+   13491,
+   13492
+  ],
+  "group_size": 10272,
+  "group_p75_pcc": 0.9626,
+  "record_pcc_telemetry": 0.9626,
+  "rule": "all records of the cohort"
+ },
+ {
+  "key": "china_JS31902",
+  "cohort": "china",
+  "cohort_name": "Chapman-Shaoxing/Ningbo",
+  "record_id": "JS31902",
+  "group": "all records",
+  "labels": [
+   "SBRAD"
+  ],
+  "diagnosis": "sinus bradycardia",
+  "age": 62.0,
+  "sex": "F",
+  "file": "JS31902",
+  "source_path": "32/325/JS31902",
+  "dataset_windows": [
+   61337,
+   61338
+  ],
+  "group_size": 43546,
+  "group_p75_pcc": 0.9711,
+  "record_pcc_telemetry": 0.9711,
+  "rule": "all records of the cohort"
+ }
+]

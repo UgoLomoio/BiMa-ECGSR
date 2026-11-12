@@ -1,0 +1,25 @@
+path,check,result,value
+gpu_auto,1 every tab runs (handlers incl. attribution),pass,10 tab handlers ran without error
+gpu_auto,2a preprocessing == stored dataset windows,pass,max |delta| 0.0e+00 (11 records)
+gpu_auto,"2b BiMa-SR recon vs stored prediction, max|delta|<1e-2",fail,"42/66 combos; max 0.047, p99.9 max 0.031, mean|delta| max 0.0013 (bf16 autocast (as in the paper's evaluation); stored = bf16)"
+gpu_auto,2c BiMa-SR per-lead PCC == stored to 3 decimals,partial,96.0% of leads equal at 3 dp; 98.7% within 5e-4; max |dPCC| 0.0032
+gpu_auto,2d DiBiMa-SR vs stored (different noise draw; informative only),n/a,one-step max |dPCC| 0.311; DDIM-6 0.547
+gpu_auto,"3 uploads (WFDB .dat/.mat, CSV 12-lead/measured-only/time col, NPY uV/250/1000 Hz, 7 error cases)",pass,16/16 cases as expected
+gpu_auto,4a IG completeness <=5% (adaptive 32->128->512 GL steps),pass (|dF|>=1),all cases 97.6% of 748; |dF|>=1 logit 100.0%; top real class max 4.0%; 32 steps alone 77.0%
+gpu_torch,1 every tab runs (handlers incl. attribution),pass,10 tab handlers ran without error
+gpu_torch,2a preprocessing == stored dataset windows,pass,max |delta| 0.0e+00 (11 records)
+gpu_torch,"2b BiMa-SR recon vs stored prediction, max|delta|<1e-2",fail,"0/66 combos; max 0.062, p99.9 max 0.031, mean|delta| max 0.0020 (bf16 autocast (as in the paper's evaluation); stored = bf16)"
+gpu_torch,2c BiMa-SR per-lead PCC == stored to 3 decimals,partial,85.8% of leads equal at 3 dp; 91.0% within 5e-4; max |dPCC| 0.0056
+gpu_torch,2d DiBiMa-SR vs stored (different noise draw; informative only),n/a,one-step max |dPCC| 0.312; DDIM-6 0.544
+gpu_torch,"3 uploads (WFDB .dat/.mat, CSV 12-lead/measured-only/time col, NPY uV/250/1000 Hz, 7 error cases)",pass,16/16 cases as expected
+gpu_torch,4a IG completeness <=5% (adaptive 32->128->512 GL steps),pass (|dF|>=1),all cases 97.7% of 748; |dF|>=1 logit 100.0%; top real class max 4.6%; 32 steps alone 76.9%
+cpu,1 every tab runs (handlers incl. attribution),pass,10 tab handlers ran without error
+cpu,2a preprocessing == stored dataset windows,pass,max |delta| 0.0e+00 (11 records)
+cpu,"2b BiMa-SR recon vs stored prediction, max|delta|<1e-2",fail,"0/66 combos; max 0.384, p99.9 max 0.247, mean|delta| max 0.0096 (float32; stored = bf16)"
+cpu,2c BiMa-SR per-lead PCC == stored to 3 decimals,partial,73.8% of leads equal at 3 dp; 79.2% within 5e-4; max |dPCC| 0.2152
+cpu,2d DiBiMa-SR vs stored (different noise draw; informative only),n/a,one-step max |dPCC| 0.309; DDIM-6 0.554
+cpu,"3 uploads (WFDB .dat/.mat, CSV 12-lead/measured-only/time col, NPY uV/250/1000 Hz, 7 error cases)",pass,16/16 cases as expected
+cpu,4a IG completeness <=5% (adaptive 32->128->512 GL steps),pass (|dF|>=1),all cases 99.0% of 204; |dF|>=1 logit 100.0%; top real class max 4.6%; 32 steps alone 78.4%
+gpu_auto vs gpu_torch,4b recon gradients finite + identical across GPU backends to 1e-3 rel (I_II_V1),pass,max per-lead relative diff 4.1e-05
+gpu_auto vs gpu_torch,4b recon gradients finite + identical across GPU backends to 1e-3 rel (II),pass,max per-lead relative diff 4.0e-05
+all,5 screenshots of each tab,partial,static renders (Plotly via kaleido + PIL); headless Chrome blocked by sandbox (socket() not permitted)

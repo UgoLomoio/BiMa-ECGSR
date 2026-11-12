@@ -1,0 +1,21 @@
+path,tab,call,wall_s
+gpu_torch,"1 Reconstruct (I+II+V1, BiMa-SR, classifier on)",1,0.8168000279692933
+gpu_torch,"1 Reconstruct (I+II+V1, BiMa-SR, classifier on)",2,0.7980112439836375
+gpu_torch,"1 Reconstruct (II, DiBiMa-SR DDIM-6)",1,2.9994846140034497
+gpu_torch,"1 Reconstruct (II, DiBiMa-SR DDIM-6)",2,3.0039113929960877
+gpu_torch,2 Classifier view (no GPU),1,1.648264154966455
+gpu_torch,2 Classifier view (no GPU),2,0.015169748978223652
+gpu_torch,"2 Explain (I+II+V1, BiMa-SR, 9 predicted leads)",1,24.849326585012022
+gpu_torch,"2 Explain (I+II+V1, BiMa-SR, 9 predicted leads)",2,24.572111762012355
+gpu_torch,"2 Explain (II, BiMa-SR, 11 predicted leads)",1,29.480706856003962
+gpu_torch,"2 Explain (II, BiMa-SR, 11 predicted leads)",2,29.604977628041524
+gpu_torch,"2 Explain (II, DiBiMa-SR one-step)",1,29.86647622799501
+gpu_torch,"2 Explain (II, DiBiMa-SR one-step)",2,29.884243189997505
+gpu_torch,3 Compare input sets (6 configs),1,3.2785531519912183
+gpu_torch,3 Compare input sets (6 configs),2,3.261885022977367
+gpu_torch,4 Diffusion uncertainty (N=8),1,9.468005095026456
+gpu_torch,4 Diffusion uncertainty (N=8),2,9.468870235024951
+gpu_torch,4 Diffusion uncertainty (N=16),1,18.54635540698655
+gpu_torch,4 Diffusion uncertainty (N=16),2,18.546995480020996
+gpu_torch,5 Results tables,1,0.007250511029269546
+gpu_torch,5 Results tables,2,0.006479102012235671

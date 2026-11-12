@@ -1,0 +1,10 @@
+component,setting
+cohorts evaluated,"PTB-XL test (fold 10), Georgia, China"
+accuracy metrics,pooled median PCC and MAE over predicted leads; limb and precordial separately; per lead; per diagnostic class
+comparator: linear FIR,"per-lead FIR from the input leads, 101 taps per input lead, float64 least squares on 4000 PTB-XL training windows"
+comparator: exact limb leads,Einthoven/Goldberger when I and II are inputs
+classifier,"one 12-lead 1D-ResNet, 3364369 parameters, trained on real PTB-XL 12-lead ECGs (folds 1-8, early stopping on fold 9); run unchanged on real and reconstructed ECGs"
+AUROC unit,record (record probability = mean of its two windows)
+labels: superclasses (PTB-XL),"NORM, MI, STTC, CD, HYP"
+labels: shared panel,"AFIB, AFLT, 1AVB, PAC, PVC, SBRAD, STACH, WPW, LVH, RVH, CRBBB, CLBBB; China AFLT not scored"
+statistics,"95% record-bootstrap CIs (B = 1,000); paired comparisons on shared resamples"

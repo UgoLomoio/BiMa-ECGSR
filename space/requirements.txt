@@ -1,0 +1,18 @@
+# Hugging Face ZeroGPU Space: Python 3.12, PyTorch 2.8 (CUDA 12 wheels from PyPI; gradio comes from sdk_version in
+# README.md). The same file also works on CPU hardware (the app then uses the pure-PyTorch Mamba backend).
+spaces
+torch==2.8.0
+numpy>=1.26,<2.4
+scipy>=1.11
+pandas>=2.1
+plotly>=5.20             # all figures (traces passed as plain lists)
+wfdb>=4.1
+diffusers>=0.30          # DDPM / DDIM schedulers (DiBiMa-SR)
+huggingface_hub>=0.33    # weights from the private model repo (Space secret HF_TOKEN)
+numba>=0.60              # fused CPU selective scan (CPU fallback only)
+einops>=0.7              # mamba_ssm dependency
+transformers>=4.44       # imported by mamba_ssm.utils.generation
+# Mamba v1 CUDA selective-scan kernel: prebuilt wheel for cu12 / torch 2.8 / cp312. causal_conv1d is deliberately NOT
+# installed: mamba_ssm.Mamba then runs nn.Conv1d + the selective_scan CUDA kernel (non-fused path). The app checks
+# this backend against the pure-PyTorch implementation on one window and falls back to it if they disagree.
+mamba_ssm @ https://github.com/state-spaces/mamba/releases/download/v2.3.1/mamba_ssm-2.3.1+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl

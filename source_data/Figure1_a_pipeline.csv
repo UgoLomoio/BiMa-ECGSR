@@ -1,0 +1,6 @@
+step,operation,setting
+1,channels / rate / duration,"12 leads, 500 Hz, first 10 s"
+2,band-pass filter,"zero-phase Butterworth, order 3, 0.5-40 Hz"
+3,windowing,"two non-overlapping 5-s windows, 2,500 samples each"
+4,normalisation,z-score per window and lead; per-lead mean and s.d. stored
+5,exclusion,window excluded if it contains NaN or a flat lead (s.d. < 0.005 mV)

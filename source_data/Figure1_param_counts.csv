@@ -1,0 +1,14 @@
+model,mode,input_config,k_input_leads,encoder_input_channels,n_params,trained_in_study
+BiMa-SR,regression,I,1,1,2675148,True
+BiMa-SR,regression,II,1,1,2675148,True
+BiMa-SR,regression,I+II,2,2,2675468,True
+BiMa-SR,regression,I+II+V1,3,3,2675788,True
+BiMa-SR,regression,I+II+V2,3,3,2675788,True
+BiMa-SR,regression,I+II+V1+V4,4,4,2676108,True
+DiBiMa-SR,diffusion,I,1,13,2687308,False
+DiBiMa-SR,diffusion,II,1,13,2687308,True
+DiBiMa-SR,diffusion,I+II,2,14,2687628,False
+DiBiMa-SR,diffusion,I+II+V1,3,15,2687948,False
+DiBiMa-SR,diffusion,I+II+V2,3,15,2687948,False
+DiBiMa-SR,diffusion,I+II+V1+V4,4,16,2688268,False
+12-lead classifier (1D-ResNet),classification,all 12 leads,12,12,3364369,True

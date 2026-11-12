@@ -1,0 +1,16 @@
+part,config,cohort,method,method_name,n_records,n_windows,n_leads,value,ci_low,ci_high,frac_a_better,wilcoxon_p
+pcc_all_pred,II,ptbxl_test,bima_sr,BiMa-SR,2198,4396.0,11,0.913598209619522,0.910827025771141,0.9158405736088752,,
+pcc_all_pred,II,ptbxl_test,dibima_sr_onestep,DiBiMa-SR (one-step),2198,4396.0,11,0.9034321904182434,0.9001483544707298,0.9065247550606728,,
+pcc_all_pred,II,ptbxl_test,dibima_sr_ddim6,DiBiMa-SR (DDIM-6),2198,4396.0,11,0.8621661067008972,0.8589544400572777,0.8651570081710815,,
+pcc_all_pred,II,ptbxl_test,linear_fir,Linear filter,2198,4396.0,11,0.7841539978981018,0.7773789882659912,0.7899559333920478,,
+pcc_all_pred,II,georgia,bima_sr,BiMa-SR,10275,20547.0,11,0.8708987832069397,0.8689817130565644,0.8728001192212105,,
+pcc_all_pred,II,georgia,dibima_sr_onestep,DiBiMa-SR (one-step),10275,20547.0,11,0.861745297908783,0.8597915351390839,0.8637144133448601,,
+pcc_all_pred,II,georgia,dibima_sr_ddim6,DiBiMa-SR (DDIM-6),10275,20547.0,11,0.8187056183815002,0.816670635342598,0.8207478910684586,,
+pcc_all_pred,II,georgia,linear_fir,Linear filter,10275,20547.0,11,0.771687924861908,0.768487112224102,0.7749102607369422,,
+pcc_all_pred,II,china,bima_sr,BiMa-SR,43559,87105.0,11,0.8797685503959656,0.8789684265851975,0.8806028485298156,,
+pcc_all_pred,II,china,dibima_sr_onestep,DiBiMa-SR (one-step),43559,87105.0,11,0.8663039803504944,0.8653314977884292,0.8672136008739472,,
+pcc_all_pred,II,china,dibima_sr_ddim6,DiBiMa-SR (DDIM-6),43559,87105.0,11,0.8274409770965576,0.8265267938375473,0.8283800423145294,,
+pcc_all_pred,II,china,linear_fir,Linear filter,43559,87105.0,11,0.7887004017829895,0.787333132326603,0.7899637579917907,,
+paired_per_record_pcc_diff,II,ptbxl_test,bima_sr - dibima_sr_onestep,BiMa-SR minus DiBiMa-SR (one-step),2198,,11,0.0172263613141715,0.014511021637292,0.0196521073847164,0.6278434940855323,3.1604599648196904e-48
+paired_per_record_pcc_diff,II,georgia,bima_sr - dibima_sr_onestep,BiMa-SR minus DiBiMa-SR (one-step),10275,,11,0.0121464994216234,0.0106887249642923,0.0135902099034145,0.5782968369829684,8.458779335030603e-71
+paired_per_record_pcc_diff,II,china,bima_sr - dibima_sr_onestep,BiMa-SR minus DiBiMa-SR (one-step),43559,,11,0.024305104568862,0.0236207044989875,0.0249231774164847,0.6585321058793819,0.0

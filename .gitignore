@@ -1,0 +1,32 @@
+# weights / checkpoints / large arrays (live on the data drive or in the private HF model repo)
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+weights/
+space/weights/
+# run outputs and logs
+runs/
+scripts/logs/
+*.log
+# python / tooling caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.claude/
+# local renders from the Space tools (keep the curated one in docs/)
+space/tools/*.png
+space/tools/smoke_results*.csv
+# manuscript: added in a later commit
+paper/
+# data, logs and local Space test outputs
+data/
+logs/
+space/tools/smoke_devices_*.csv
+# sandbox temp folders (deploy dry-run bundles)
+.tmp/
+# raw local QA outputs of the Space (summaries are in docs/verification/)
+space/tools/qa_*

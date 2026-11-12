@@ -1,0 +1,9 @@
+Ran 23 tests in 1.236s
+OK
+ALL 20 TEST GROUPS PASSED
+Ran 9 tests in 0.844s
+OK
+Ran 3 tests in 17.956s
+OK
+  bima_sr_II: max |torch CPU - mamba_ssm GPU| (float32) = 1.17e-05 (output max 5.58)
+  dibima_sr_II: max |torch CPU - mamba_ssm GPU| (float32) = 1.18e-05 (output max 5.37)

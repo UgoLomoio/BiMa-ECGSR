@@ -1,0 +1,17 @@
+ok,message,metrics,notes,desc,all_pred_pcc,case,config,expect_error,pass_,wall_s,path
+True,,True,,"WFDB 03452_hr: leads I, II, III, AVR, AVL, AVF, V1, V2, V3, V4, V5, V6, 500 Hz",0.988,"WFDB .hea + .dat (PTB-XL, 12 leads)",I+II+V1,False,True,0.36226425401400775,gpu_auto
+True,,True,,"WFDB E05445: leads I, II, III, aVR, aVL, aVF, V1, V2, V3, V4, V5, V6, 500 Hz",0.88,"WFDB .hea + .mat (Georgia, 12 leads)",II,False,True,0.39990628202212974,gpu_auto
+False,could not read the WFDB record (FileNotFoundError); upload the .hea together with its signal file (.dat or .mat),,,,,WFDB .hea only (signal file missing),II,True,True,0.002063673979137093,gpu_auto
+True,"With I and II measured, the limb leads III, aVR, aVL and aVF are exactly derivable (Einthoven/Goldberger); the chest leads are the informative comparison.",True,amplitudes interpreted as mV,CSV ecg12.csv: 12 leads x 5000 samples,0.988,CSV 12 leads with header row (mV),I+II+V1,False,True,0.3880140819819644,gpu_auto
+True,Note: amplitudes interpreted as mV.,True,amplitudes interpreted as mV,CSV ecg12t.csv: 12 leads x 5000 samples,0.82,CSV 12 leads with time column + header,II,False,True,0.37604626698885113,gpu_auto
+True,No real reference for the predicted leads (only the measured leads were provided): no metrics.,False,amplitudes interpreted as mV,CSV ecg3.csv: 3 leads x 5000 samples,,"CSV measured leads only (I, II, V1; no header, N x 3)",I+II+V1,False,True,0.2989439560333267,gpu_auto
+True,"With I and II measured, the limb leads III, aVR, aVL and aVF are exactly derivable (Einthoven/Goldberger); the chest leads are the informative comparison.",True,amplitudes interpreted as µV (median 99th-percentile |x| = 751) and converted to mV,NPY ecg12_uv.npy: 12 leads x 5000 samples,0.988,NPY 12 x N in µV,I+II+V1,False,True,0.3513378449715674,gpu_auto
+True,No real reference for the predicted leads (only the measured leads were provided): no metrics.,False,amplitudes interpreted as mV; resampled from 250 Hz to 500 Hz,NPY ecg_ii_250.npy: 1 leads x 5000 samples,,NPY measured lead only (II) at 250 Hz,II,False,True,0.28164683998329565,gpu_auto
+True,Note: resampled from 1000 Hz to 500 Hz.,True,amplitudes interpreted as mV; resampled from 1000 Hz to 500 Hz,NPY ecg12_1k.npy: 12 leads x 5000 samples,0.794,NPY 12 x N at 1000 Hz (resampled),I,False,True,0.38522464997367933,gpu_auto
+False,"array shape (5, 3000): need 12 x N or 1 x N (or transposed) with N >= 2500 samples (5 s at 500 Hz)",,,,,NPY wrong shape (5 x 3000),II,True,True,0.00027496303664520383,gpu_auto
+False,"expected a 2-D array (leads x samples), got shape (2, 12, 2500)",,,,,NPY 3-D array,II,True,True,0.00022772600641474128,gpu_auto
+False,"array shape (12, 1000): need 12 x N or 1 x N (or transposed) with N >= 2500 samples (5 s at 500 Hz)",,,,,NPY too short (12 x 1000),II,True,True,0.00014388799900189042,gpu_auto
+False,sampling rate 50 Hz is outside the supported range 100-2000 Hz,,,,,Wrong rate (fs = 50 Hz),II,True,True,0.0018728739814832807,gpu_auto
+False,the CSV contains non-numeric values,,,,,CSV with text cells,II,True,True,0.0014835750334896147,gpu_auto
+False,"unsupported file type .edf; use WFDB (.hea + .dat/.mat), .csv or .npy",,,,,Unsupported type (.edf),II,True,True,2.9051967430859804e-05,gpu_auto
+False,"array shape (1, 5000): need 12 x N or 3 x N (or transposed) with N >= 2500 samples (5 s at 500 Hz)",,,,,"Measured lead missing (only I given, config I+II+V1)",I+II+V1,True,True,0.00015849899500608444,gpu_auto

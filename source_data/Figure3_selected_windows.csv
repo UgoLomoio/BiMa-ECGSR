@@ -1,0 +1,49 @@
+panel,quantile,cohort,group,selection_config,selection_score,n_windows_in_group,n_records_in_group,window_index,record_id,half,selection_value,shown_config,lead,role,pcc_bima_sr,pcc_linear_filter
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,I,V1,predicted,0.9514867067337036,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,I,V3,predicted,0.9167093634605408,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,I,V5,predicted,0.9489139318466187,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,II,V1,predicted,0.923498809337616,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,II,V3,predicted,0.9003685116767883,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,II,V5,predicted,0.9138762354850769,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II",V1,predicted,0.9378827810287476,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II",V3,predicted,0.9126524329185486,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II",V5,predicted,0.9223836660385132,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V1",V1,input,,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V1",V3,predicted,0.9427809119224548,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V1",V5,predicted,0.9479748606681824,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V2",V1,predicted,0.9666910171508789,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V2",V3,predicted,0.958002507686615,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V2",V5,predicted,0.9648904204368591,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V1,V4",V1,input,,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V1,V4",V3,predicted,0.9215955138206482,
+a,0.9,ptbxl_test,NORM,II,mean BiMa-SR PCC over 11 predicted leads,1926,963,110,417,0,0.9358385096896779,"I,II,V1,V4",V5,predicted,0.9741425514221191,
+b,0.9,ptbxl_test,MI,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,1100,550,3618,17007,0,0.9678649783134461,"I,II,V1",V1,input,,
+b,0.9,ptbxl_test,MI,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,1100,550,3618,17007,0,0.9678649783134461,"I,II,V1",V2,predicted,0.9483498930931091,0.8677793741226196
+b,0.9,ptbxl_test,MI,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,1100,550,3618,17007,0,0.9678649783134461,"I,II,V1",V3,predicted,0.9762890338897705,0.838957667350769
+b,0.9,ptbxl_test,MI,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,1100,550,3618,17007,0,0.9678649783134461,"I,II,V1",V4,predicted,0.9726261496543884,0.9109154939651489
+b,0.9,ptbxl_test,MI,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,1100,550,3618,17007,0,0.9678649783134461,"I,II,V1",V5,predicted,0.9675964713096619,0.8549529314041138
+b,0.9,ptbxl_test,MI,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,1100,550,3618,17007,0,0.9678649783134461,"I,II,V1",V6,predicted,0.9744633436203003,0.8576147556304932
+b,0.9,ptbxl_test,CLBBB,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,108,54,1818,7919,0,0.9496615409851075,"I,II,V1",V1,input,,
+b,0.9,ptbxl_test,CLBBB,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,108,54,1818,7919,0,0.9496615409851075,"I,II,V1",V2,predicted,0.9968960881233215,0.9941928386688232
+b,0.9,ptbxl_test,CLBBB,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,108,54,1818,7919,0,0.9496615409851075,"I,II,V1",V3,predicted,0.971054196357727,0.9832862019538879
+b,0.9,ptbxl_test,CLBBB,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,108,54,1818,7919,0,0.9496615409851075,"I,II,V1",V4,predicted,0.8408784866333008,0.7663171887397766
+b,0.9,ptbxl_test,CLBBB,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,108,54,1818,7919,0,0.9496615409851075,"I,II,V1",V5,predicted,0.9587467312812805,0.8425052165985107
+b,0.9,ptbxl_test,CLBBB,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,108,54,1818,7919,0,0.9496615409851075,"I,II,V1",V6,predicted,0.9807322025299072,0.8707895278930664
+b,0.9,ptbxl_test,LVH,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,428,214,352,1386,0,0.97237708568573,"I,II,V1",V1,input,,
+b,0.9,ptbxl_test,LVH,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,428,214,352,1386,0,0.97237708568573,"I,II,V1",V2,predicted,0.9893513321876526,0.9936190843582153
+b,0.9,ptbxl_test,LVH,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,428,214,352,1386,0,0.97237708568573,"I,II,V1",V3,predicted,0.9783183336257935,0.9445347785949707
+b,0.9,ptbxl_test,LVH,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,428,214,352,1386,0,0.97237708568573,"I,II,V1",V4,predicted,0.939405083656311,0.9098010659217834
+b,0.9,ptbxl_test,LVH,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,428,214,352,1386,0,0.97237708568573,"I,II,V1",V5,predicted,0.9845983982086182,0.9879609942436218
+b,0.9,ptbxl_test,LVH,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,428,214,352,1386,0,0.97237708568573,"I,II,V1",V6,predicted,0.9702122807502747,0.9393153190612793
+c,0.9,georgia,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,20547,10275,3066,E09552,0,0.9636090517044067,"I,II,V1",V1,input,,
+c,0.9,georgia,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,20547,10275,3066,E09552,0,0.9636090517044067,"I,II,V1",V2,predicted,0.9135549664497375,0.8942158222198486
+c,0.9,georgia,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,20547,10275,3066,E09552,0,0.9636090517044067,"I,II,V1",V3,predicted,0.9563031196594238,0.8842054605484009
+c,0.9,georgia,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,20547,10275,3066,E09552,0,0.9636090517044067,"I,II,V1",V4,predicted,0.982348620891571,0.9120299220085144
+c,0.9,georgia,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,20547,10275,3066,E09552,0,0.9636090517044067,"I,II,V1",V5,predicted,0.9881578087806702,0.9251343011856079
+c,0.9,georgia,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,20547,10275,3066,E09552,0,0.9636090517044067,"I,II,V1",V6,predicted,0.9776807427406311,0.9520401358604431
+c,0.9,china,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,87105,43559,65781,JS34127,0,0.9705789804458618,"I,II,V1",V1,input,,
+c,0.9,china,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,87105,43559,65781,JS34127,0,0.9705789804458618,"I,II,V1",V2,predicted,0.9634817838668823,0.9137113094329834
+c,0.9,china,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,87105,43559,65781,JS34127,0,0.9705789804458618,"I,II,V1",V3,predicted,0.9862405061721802,0.9670586585998535
+c,0.9,china,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,87105,43559,65781,JS34127,0,0.9705789804458618,"I,II,V1",V4,predicted,0.9727329015731812,0.9587028622627258
+c,0.9,china,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,87105,43559,65781,JS34127,0,0.9705789804458618,"I,II,V1",V5,predicted,0.9532301425933838,0.9340567588806152
+c,0.9,china,all,"I,II,V1",mean BiMa-SR PCC over predicted chest leads V2-V6,87105,43559,65781,JS34127,0,0.9705789804458618,"I,II,V1",V6,predicted,0.9772095680236816,0.9571318030357361

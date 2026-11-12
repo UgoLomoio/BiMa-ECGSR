@@ -1,0 +1,72 @@
+{
+ "n_windows_compared": 64,
+ "eval_batch": 128,
+ "gpu_free_mib": 16850,
+ "bima_sr_II:regression:gpu_mamba_ssm": {
+  "max_abs_diff": 0.0,
+  "mean_abs_diff": 0.0,
+  "max_abs_diff_predicted_leads": 0.0,
+  "frac_exact_float16": 1.0,
+  "max_abs_diff_pcc": 0.0,
+  "max_abs_diff_mae": 0.0,
+  "sec": 5.315060615539551,
+  "peak_gib": 1.0399794578552246,
+  "max_abs_diff_all_first_batch": 0.0
+ },
+ "dibima_sr_II:onestep:gpu_mamba_ssm": {
+  "max_abs_diff": 0.046875,
+  "mean_abs_diff": 0.0013114591129124165,
+  "max_abs_diff_predicted_leads": 0.046875,
+  "frac_exact_float16": 0.43595416666666664,
+  "max_abs_diff_pcc": 0.0012331604957580566,
+  "max_abs_diff_mae": 0.00026285648345947266,
+  "sec": 1.9177803993225098,
+  "peak_gib": 1.054370403289795,
+  "max_abs_diff_all_first_batch": 0.046875
+ },
+ "dibima_sr_II:ddim6:gpu_mamba_ssm": {
+  "max_abs_diff": 0.046875,
+  "mean_abs_diff": 0.0017650710651651025,
+  "max_abs_diff_predicted_leads": 0.046875,
+  "frac_exact_float16": 0.39062135416666666,
+  "max_abs_diff_pcc": 0.0015804171562194824,
+  "max_abs_diff_mae": 0.0005025267601013184,
+  "sec": 11.188527345657349,
+  "peak_gib": 1.0695972442626953,
+  "max_abs_diff_all_first_batch": 0.046875
+ },
+ "bima_sr_II:regression:cpu_torch": {
+  "max_abs_diff": 0.054669857025146484,
+  "mean_abs_diff": 0.001872299937531352,
+  "max_abs_diff_predicted_leads": 0.054669857025146484,
+  "frac_exact_float16": 0.12223333333333333,
+  "max_abs_diff_pcc": 0.006434589624404907,
+  "max_abs_diff_mae": 0.001147925853729248,
+  "sec": 14.367745637893677,
+  "n": 4,
+  "ms_per_window": 3591.936409473419
+ },
+ "dibima_sr_II:onestep:cpu_torch": {
+  "max_abs_diff": 0.054787635803222656,
+  "mean_abs_diff": 0.0024329894222319126,
+  "max_abs_diff_predicted_leads": 0.054787635803222656,
+  "frac_exact_float16": 0.10976666666666667,
+  "max_abs_diff_pcc": 0.00796288251876831,
+  "max_abs_diff_mae": 0.0024414658546447754,
+  "sec": 13.81028962135315,
+  "n": 4,
+  "ms_per_window": 3452.5724053382874
+ },
+ "judge12:batch64:cuda": {
+  "max_abs_diff_window_prob_vs_stored_float16": 0.0029012560844421387,
+  "max_abs_diff_record_prob": 0.0011931657791137695,
+  "n_records_complete": 32,
+  "note": "stored p_win is float16; p_rec float32 (bf16 autocast on GPU)"
+ },
+ "judge12:batch256:cuda": {
+  "max_abs_diff_window_prob_vs_stored_float16": 0.0002435445785522461,
+  "max_abs_diff_record_prob": 0.0,
+  "n_records_complete": 32,
+  "note": "stored p_win is float16; p_rec float32 (bf16 autocast on GPU)"
+ }
+}

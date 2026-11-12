@@ -1,0 +1,21 @@
+path,tab,call,wall_s
+gpu_auto,"1 Reconstruct (I+II+V1, BiMa-SR, classifier on)",1,0.4431631039478816
+gpu_auto,"1 Reconstruct (I+II+V1, BiMa-SR, classifier on)",2,0.42745851702056825
+gpu_auto,"1 Reconstruct (II, DiBiMa-SR DDIM-6)",1,0.698575438989792
+gpu_auto,"1 Reconstruct (II, DiBiMa-SR DDIM-6)",2,0.7649971600039862
+gpu_auto,2 Classifier view (no GPU),1,1.797320683952421
+gpu_auto,2 Classifier view (no GPU),2,0.01643076998880133
+gpu_auto,"2 Explain (I+II+V1, BiMa-SR, 9 predicted leads)",1,3.4050672199809924
+gpu_auto,"2 Explain (I+II+V1, BiMa-SR, 9 predicted leads)",2,1.348793951969128
+gpu_auto,"2 Explain (II, BiMa-SR, 11 predicted leads)",1,1.4015209710341878
+gpu_auto,"2 Explain (II, BiMa-SR, 11 predicted leads)",2,1.3979377059731632
+gpu_auto,"2 Explain (II, DiBiMa-SR one-step)",1,1.7882531369687058
+gpu_auto,"2 Explain (II, DiBiMa-SR one-step)",2,1.7985640550032258
+gpu_auto,3 Compare input sets (6 configs),1,1.133199927979149
+gpu_auto,3 Compare input sets (6 configs),2,1.1349295699619688
+gpu_auto,4 Diffusion uncertainty (N=8),1,0.680651823990047
+gpu_auto,4 Diffusion uncertainty (N=8),2,0.6049612779752351
+gpu_auto,4 Diffusion uncertainty (N=16),1,0.707591433019843
+gpu_auto,4 Diffusion uncertainty (N=16),2,0.7290368680260144
+gpu_auto,5 Results tables,1,0.007793924014549702
+gpu_auto,5 Results tables,2,0.006809037993662059

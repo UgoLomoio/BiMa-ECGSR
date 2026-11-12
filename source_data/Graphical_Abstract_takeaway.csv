@@ -1,0 +1,8 @@
+item,value
+chest_pcc_gain_min,0.011967360973358154
+chest_pcc_gain_max,0.13568872213363647
+n_pairs_bima_better,18
+n_pairs,18
+ptbxl_superclass_auroc_gap_k3_min,0.004471767403981808
+ptbxl_superclass_auroc_gap_k3_max,0.010796650639849026
+takeaway,BiMa-SR beats linear baselines on chest leads in 18/18 configuration–cohort pairs; ≥ 3 measured leads: PTB-XL AUROC 0.004–0.011 below real ECGs

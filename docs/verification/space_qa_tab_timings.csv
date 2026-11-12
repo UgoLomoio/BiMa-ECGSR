@@ -1,0 +1,11 @@
+tab,cpu call1,cpu call2,gpu_auto call1,gpu_auto call2,gpu_torch call1,gpu_torch call2
+"1 Reconstruct (I+II+V1, BiMa-SR, classifier on)",5.14,4.08,0.44,0.43,0.82,0.8
+"1 Reconstruct (II, DiBiMa-SR DDIM-6)",22.29,20.71,0.7,0.76,3.0,3.0
+2 Classifier view (no GPU),1.35,0.01,1.8,0.02,1.65,0.02
+"2 Explain (I+II+V1, BiMa-SR, 9 predicted leads)",42.26,,3.41,1.35,24.85,24.57
+"2 Explain (II, BiMa-SR, 11 predicted leads)",43.6,,1.4,1.4,29.48,29.6
+"2 Explain (II, DiBiMa-SR one-step)",56.46,,1.79,1.8,29.87,29.88
+3 Compare input sets (6 configs),19.93,19.5,1.13,1.13,3.28,3.26
+4 Diffusion uncertainty (N=16),58.64,57.85,0.71,0.73,18.55,18.55
+4 Diffusion uncertainty (N=8),27.82,27.3,0.68,0.6,9.47,9.47
+5 Results tables,0.01,0.01,0.01,0.01,0.01,0.01

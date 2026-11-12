@@ -1,0 +1,6 @@
+split,cohort,role,folds,strat_folds_found,n_windows,n_records,n_model_selection_windows,records_read_qc
+ptbxl_train,PTB-XL,train,folds 1-8,"1,2,3,4,5,6,7,8",34833,17417,0,21799
+ptbxl_val,PTB-XL,validation,fold 9,9,4366,2183,1024,21799
+ptbxl_test,PTB-XL,test,fold 10,10,4396,2198,0,21799
+georgia,Georgia,external test,all,,20547,10275,0,10344
+china,China,external test,all,,87105,43559,0,45152
